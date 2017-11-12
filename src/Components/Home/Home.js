@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Home.css";
-import {Link} from 'react-router-dom'
+import {Route, Link} from 'react-router-dom'
 import Header from '../Header/Header.js'
+import About from "../About/About.js"
 class Home extends React.Component{
     constructor(props) {
         super(props)
