@@ -1,0 +1,23 @@
+#projectsContainer {
+    background: #333;
+    width: 100vw;
+    height: 100vh;
+}
+#projectsScroll {
+    display: inline-block;
+    width: 60vw;
+    height: 100vh;
+}
+#projectsNav {
+    display: inline-block;
+    width: 40vw;
+    height: 100vh;
+    vertical-align: top;
+}
+#aboutProjectsNav {
+    height: 50vh;
+}
+#aboutProjectsNav a {
+    text-decoration: none;
+    color: white;
+}

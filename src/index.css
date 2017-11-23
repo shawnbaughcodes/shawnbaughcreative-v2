@@ -4,5 +4,8 @@
     margin: 0;
     border: 0;
 }
+/*UI KIT*/
 @import "https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/css/uikit.min.css";
+/*FONTS*/
 @import "https://fonts.googleapis.com/css?family=Sumana:700";
+@import "https://fonts.googleapis.com/css?family=Raleway:200";
