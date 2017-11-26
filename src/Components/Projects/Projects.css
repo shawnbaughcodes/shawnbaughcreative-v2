@@ -2,22 +2,72 @@
     background: #333;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 #projectsScroll {
     display: inline-block;
     width: 60vw;
     height: 100vh;
 }
-#projectsNav {
+#projectsScroll h1 {
+    text-align: center;
+    font-family: 'Sumana', serif;
+    font-size: 100pt;
+    color: white;
+}
+#projectsScroll h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-size: 25pt;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    padding-bottom: 5%;
+}
+#aboutNav {
     display: inline-block;
     width: 40vw;
     height: 100vh;
     vertical-align: top;
 }
-#aboutProjectsNav {
+#projectsAboutNav {
     height: 50vh;
 }
-#aboutProjectsNav a {
+#projectsAboutNav h2 {
+    text-align: center;
+    font-family: 'Sumana', sans-serif;
+    font-size: 100pt;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+}
+#projectsAboutNav a {
     text-decoration: none;
     color: white;
+}
+#homeAboutNav {
+    height: 50vh;
+}
+#homeAboutNav h2 {
+    text-align: center;
+    font-family: 'Sumana', sans-serif;
+    font-size: 100pt;
+    position: relative;
+    top: 50%;
+    transform: translateY(-55%);
+}
+#homeAboutNav a {
+    text-decoration: none;
+    color: white;
+}
+video {
+    height: 40vh;
+}
+#projectImage img {
+    width: 55vw;
+}
+#project {
+    margin-left: 5%;
+    overflow: scroll;
+    height: 100vh;
 }
