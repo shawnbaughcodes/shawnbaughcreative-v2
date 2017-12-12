@@ -1,7 +1,7 @@
 #aboutContainer {
     background: #333;
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 #aboutText {
     display: inline-block;
@@ -13,6 +13,7 @@
     font-family: 'Sumana', serif;
     font-size: 100pt;
     color: white;
+    margin-top: 11%;
 }
 #aboutText h2 {
     padding-left: 5%;
@@ -57,4 +58,54 @@
 #homeAboutNav a {
     text-decoration: none;
     color: white;
+}
+#mobileAboutNav h2 {
+    display: inline-block;
+}
+#mobileAboutNav h2:first-child {
+    padding-right: 5%;
+}
+#mobileAboutNav h2:nth-child(2) {
+    padding-left: 5%;
+}
+#mobileAboutNav a {
+    font-size: 20pt;
+    padding-top: 0;
+    font-family: 'Sumana', sans-serif;
+    color: white;
+}
+#mobileAboutNav {
+    text-align: center;
+}
+#mobileAboutText h1 {
+    font-size: 25pt;
+    font-family: 'Sumana', sans-serif;
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+}
+#mobileAboutText h2 {
+    font-size: 15pt;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: white;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#mobileAboutText a {
+    color: aqua;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+h2#mobileTextLinks {
+    text-align: center;
+}
+.fade-appear {
+  opacity: 0.01;
+}
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
 }

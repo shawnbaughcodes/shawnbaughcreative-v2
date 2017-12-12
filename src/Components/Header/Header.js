@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import "../../index.css";
 import About from "../About/About.js"
 import {Route, Link} from 'react-router-dom'
 class Header extends React.Component{
@@ -9,11 +10,19 @@ class Header extends React.Component{
 
     render(){
         return(
-            <div className="" id="nav-bar">
-                <Link to="/about" component={About}>about.</Link>
-                <Link to="/"> home. </Link>
-                <Link to="/projects">projects.</Link>
-
+            <div>
+                <div className="level is-hidden-mobile" id="nav-bar">
+                    <Link className="level-item has-text-centered" to="/about">about. </Link>
+                    <Link className="level-item has-text-centered" to="/"> home. </Link>
+                    <Link className="level-item has-text-centered" to="/projects"> projects.</Link>
+                </div>
+                <div className="is-hidden-tablet">
+                    <div id="mobileHeaderNav">
+                        <Link className="level-item has-text-centered" to="/about">about. </Link>
+                        <Link className="level-item has-text-centered" to="/"> home. </Link>
+                        <Link className="level-item has-text-centered" to="/projects"> projects.</Link>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -10,9 +10,9 @@ class Home extends React.Component{
 
     render(){
         return(
-            <div id="home">
-                <div className="uk-container-center" id="image">
-                    <div id="header">
+            <div className="" id="home">
+                <div className="" id="image">
+                    <div className="container is-desktop" id="header">
                         <Header />
                     </div>
                 </div>
