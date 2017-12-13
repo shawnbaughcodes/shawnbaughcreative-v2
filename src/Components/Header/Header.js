@@ -13,13 +13,13 @@ class Header extends React.Component{
             <div>
                 <div className="level is-hidden-mobile" id="nav-bar">
                     <Link className="level-item has-text-centered" to="/about">about. </Link>
-                    <Link className="level-item has-text-centered" to="/"> home. </Link>
+                    <Link className="level-item has-text-centered" to="/"> sb2.</Link>
                     <Link className="level-item has-text-centered" to="/projects"> projects.</Link>
                 </div>
                 <div className="is-hidden-tablet">
                     <div id="mobileHeaderNav">
                         <Link className="level-item has-text-centered" to="/about">about. </Link>
-                        <Link className="level-item has-text-centered" to="/"> home. </Link>
+                        <Link className="level-item has-text-centered" to="/"> sb2.</Link>
                         <Link className="level-item has-text-centered" to="/projects"> projects.</Link>
                     </div>
                 </div>

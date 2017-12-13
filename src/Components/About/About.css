@@ -1,5 +1,7 @@
 #aboutContainer {
     background: #333;
+    background: url('./img/aboutpage.png');
+    background-size: cover;
     width: 100vw;
     /*height: 100vh;*/
 }
@@ -19,9 +21,16 @@
     padding-left: 5%;
     padding-right: 5%;
     color: white;
-    font-size: 25pt;
+    font-size: 18pt;
     font-family: 'Raleway', sans-serif;
     text-align: justify;
+}
+#aboutText h3 {
+    text-align: center;
+    font-family: 'Sumana', serif;
+    font-size: 50pt;
+    color: white;
+    margin-top: 5%;
 }
 #aboutNav {
     display: inline-block;
@@ -59,6 +68,21 @@
     text-decoration: none;
     color: white;
 }
+h2#contactText {
+    text-align: center;
+    color: aqua;
+}
+h2#aboutTextLinks {
+    color: aqua;
+    text-align: center;
+}
+#aboutTextLinks a {
+    color: aqua;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+/*MOBILE STYLES*/
 #mobileAboutNav h2 {
     display: inline-block;
 }
@@ -100,6 +124,7 @@
     padding-right: 3%;
 }
 h2#mobileTextLinks {
+    color: aqua;
     text-align: center;
 }
 .fade-appear {

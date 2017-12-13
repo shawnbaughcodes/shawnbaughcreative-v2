@@ -1,8 +1,20 @@
 #home {
-    background-color: #333;
+    background-color: #233;
+    background: url('./img/aboutpage.png');
     background-size: cover;
     height: 100vh;
     width: 100vw;
+}
+#loadpage {
+    background: url('./img/aboutpage.png');
+    background-size: cover;
+}
+.fadehome-appear {
+  opacity: 0.01;
+}
+.fadehome-appear.fadehome-appear-active {
+  opacity: 1;
+  transition: opacity 1.0s ease-in;
 }
 /*#image {
     height: 100vh;

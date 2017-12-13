@@ -21,6 +21,9 @@ class About extends React.Component{
                                 transitionLeave={false}>
                                 <h1>about.</h1>
                                 <h2>My name is Shawn Baugh II and I am an experienced Web Application Developer with a demonstrated history of working with many technologies. Skilled in Python, JavaScript, Java, and C# languages. A recent graduate from Coding Dojo Dallas with an interest in web and mobile app development. I enjoy creating solutions to make a client’s life easier. I am interested in learning more about a position with a company as a web or software developer.</h2>
+                                <h3>contact.</h3>
+                                <h2 id="contactText">If you would like to contact me please reach out to me at:</h2>
+                                <h2 id="aboutTextLinks"><Link to="mailto:shawnbaughcreative@gmail.com">My Email </Link> <Link to="tel:1-808-824-0448"> Phone </Link><Link to="https://www.linkedin.com/in/shawn-baugh-ii/" target="_blank"> LinkedIn</Link></h2>
                             </ReactCSSTransitionGroup>
                         </div>
                         <div className="" id="aboutNav">
@@ -28,7 +31,7 @@ class About extends React.Component{
                                 <h2><Link to="/projects">projects.</Link></h2>
                             </div>
                             <div id="homeAboutNav">
-                                <h2><Link to="/">home.</Link></h2>
+                                <h2><Link to="/">sb2.</Link></h2>
                             </div>
                         </div>
                     </div>
@@ -36,14 +39,14 @@ class About extends React.Component{
                 <div className="is-hidden-tablet">
                     <div id="mobileAboutNav">
                         <h2><Link to="/projects">projects.</Link></h2>
-                        <h2><Link to="/">home.</Link></h2>
+                        <h2><Link to="/">sb2.</Link></h2>
                     </div>
                     <div id="mobileAboutText">
                         <h1>about.</h1>
                         <h2>My name is Shawn Baugh II and I am an experienced Web Application Developer with a demonstrated history of working with many technologies. Skilled in Python, JavaScript, Java, and C# languages. A recent graduate from Coding Dojo Dallas with an interest in web and mobile app development. I enjoy creating solutions to make a client’s life easier. I am interested in learning more about a position with a company as a web or software developer.</h2>
                         <h1>contact.</h1>
                         <h2>If you would like to contact me please reach out to me at:</h2>
-                        <h2 id="mobileTextLinks"><Link to="">My Email </Link> <Link to=""> Phone </Link><Link to=""> LinkedIn</Link></h2>
+                        <h2 id="mobileTextLinks"><Link to="mailto:shawnbaughcreative@gmail.com">My Email </Link> <Link to="tel:1-808-824-0448"> Phone </Link><Link to="https://www.linkedin.com/in/shawn-baugh-ii/" target="_blank"> LinkedIn</Link></h2>
                     </div>
                 </div>
             </div>
